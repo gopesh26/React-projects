@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items:center;
+ height: 100vh;
+ background-color: pink;
+}
+
+.container{
+  width: 50vw;
+  height: auto;
+  background:white;
+  padding: 1.5rem 2rem;
+  border-radius:10px;
+}
+
+button{
+  display: block;
+  width: 100%;
+  color: aliceblue;
+  background-color: pink;
+  font-size: large;
+  border-radius: 5px;
+  border-color: transparent;
+  text-transform: capitalize;
+  padding: 0.5rem 0;
+  outline: 1px solid rgba(240, 133, 174, 0.8);
+  cursor:pointer;
+}
+.img{
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.art{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
